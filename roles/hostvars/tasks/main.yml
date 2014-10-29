@@ -1,0 +1,4 @@
+---
+# tasks file for hostvars
+- debug: msg={{ foo }}
+- debug: msg={{ ansible_hostname }}
