@@ -1,6 +1,8 @@
 ---
 
 - hosts: foos
+  vars:
+    foo: site
   vars_files:
     - "vars/foo.yml"
   roles:
